@@ -1,10 +1,9 @@
 <?php
 // === LIVE DATABASE ADMIN DASHBOARD ===
-$servername = "sprenvonixdatabase.cg3qee2cupk4.us-east-1.rds.amazonaws.com";
+$servername = "sprevonix-db.cl6mik6om7h1.us-east-1.rds.amazonaws.com";
 $username   = "admin";
-$password   = "wavelearning12%";
+$password   = "Admin123456";
 $dbname     = "contactdb";
-
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
