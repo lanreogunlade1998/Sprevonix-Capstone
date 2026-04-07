@@ -2,7 +2,7 @@
 // === FIXED & SECURE insert.php ===
 $servername = "sprenvonixdatabase.cg3qee2cupk4.us-east-1.rds.amazonaws.com";
 $username   = "admin";
-$password   = "wavelearning12%";
+$password   = "Admin123456";
 $dbname     = "contactdb";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -49,5 +49,4 @@ if ($stmt->execute()) {
 }
 
 $stmt->close();
-mysqli_close($conn);
-?>
+mysq
